@@ -1,0 +1,30 @@
+.board-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: auto;
+}
+
+.board-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.board {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  overflow-x: auto;
+}
+
